@@ -11,5 +11,10 @@ public class ContaPoupanca extends Conta implements Tributavel {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "ContaPoupanca, Numero: " + super.getNumero();
+	}
 }
